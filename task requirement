@@ -1,0 +1,25 @@
+Given:
+
+const amount = 100;
+const monday = [
+  ['Write a tutorial',180],
+  ['Some web development',120]
+];
+const tuesday = [
+  ['Keep writing that tutorial',240],
+  ['Some more web development',360],
+   ['A whole lot of nothing',240]
+];
+For Monday and Tuesday elements of the array should perform next methods:
+
+-Convert time that had been taken for task implementation to the hours, from the minutes.
+-Leave only these tasks that need more then 2 hours for implement.
+-Multiply result on hourly rate (amount) and add this result as a third element of array.
+-Render to the html table, with this example:
+<tr>
+  <td>Task name: Write a tutorial</td>
+  <td>Taks duration: 3 hours</td>
+  <td>Task amount: $300</td>
+</tr>
+Use only these methods concat/forEach/map/filter/join (as needed)
+
